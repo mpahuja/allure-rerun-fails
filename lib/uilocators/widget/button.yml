@@ -1,0 +1,9 @@
+#find button
+button: {xpath: ".//*[contains(@data-aid,'el-button')]"}
+button_on_toolbox: {class: "wsb-tool-button"}
+
+button_effect_green: {class: "button_green"}
+
+button_label_text: {class: "wsb-button-input-label"}
+
+button_style_locator: {class: "wsb-button"}

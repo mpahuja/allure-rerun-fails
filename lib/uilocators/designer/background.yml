@@ -1,0 +1,10 @@
+canvas: {class: "wsb-canvas"}
+background_setting: {id: "sflayer-dialog"}
+gradient_checkbox: {class: "mutator-gradient-checkbox"}
+background_setting_color_picker: {class: "background-color-picker"}
+scrollable_canvas: {class: "wsb-canvas-scrollable"}
+color_picker_container: {class: "sf-colorpicker-main-container"}
+background_image_property: {class: "wsb-img-property"}
+
+#future background link in hamburger control
+background_on_menu: {xpath: ".//*[contains(@data-aid,'exitflyout-backgroundbutton')]"}

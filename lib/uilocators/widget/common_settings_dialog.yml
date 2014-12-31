@@ -1,0 +1,10 @@
+#color gradient
+color_gradient_checkbox: {css: ".mutator-gradient-checkbox>input"}
+
+background_color_picker: {class: "mutator-background-control"}
+
+settings_dialog_inner_mutator: {class: "wsb-canvas-mutator-inner"}
+
+settings_dialog_save_button: { css: ".sf-dialog-content .btn-success" }
+
+choose_media_dialog: {id: "wsb-media-chooser"}

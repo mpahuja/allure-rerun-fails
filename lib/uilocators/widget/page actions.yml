@@ -1,0 +1,20 @@
+page_list_dropdown: {class: "wsb-actionbar-page-flyout-pagename"}
+add_page_on_toolbox: {class: "wsb-tool-page"}
+add_page_name_input: {class: "wsb-actionbar-flyout-text-input"}
+add_page_parent_list: {css: ".wsb-actionbar-page-flyout-page-list>li"}
+add_page_child_list: {css: ".wsb-actionbar-page-flyout-page-list>li:nth-child(1) .wsb-actionbar-page-flyout-page-link"}
+add_page_delete_icon: {css: ".wsb-actionbar-page-flyout-page-list>li:nth-child(1) .wsb-tool-Delete2.wsb-actionbar-page-flyout-icn"}
+page_home_icon: {class: "wsb-actionbar-page-flyout-page-home-button"}
+page_home_active_icon: {class: "wsb-actionbar-page-flyout-home-page"}
+copy_page_icon: {css: ".wsb-actionbar-page-flyout-page-list>li:nth-child(1) .wsb-tool-copy"}
+pages_on_flyout: {class: "wsb-actionbar-page-flyout-page-link"}
+name_of_the_page: {class: "wsb-actionbar-page-flyout-pagename"}
+#new page type
+page_drop_down_designer: {xpath: ".//*[contains(@data-aid,'ab-selectpage')]"}
+page_link_delete: {xpath: ".//*[contains(@data-aid,'pageflyout-pagelistitem-deletepagebutton')]"}
+page_list_container: {css: ".wsb-actionbar-page-flyout-list-inner-container"}
+edit_page_icon: {css: ".wsb-tool-Edit2.wsb-actionbar-page-flyout-icn"}
+edit_page_name : {id: "js-editpage-name"}
+edit_page_title: {id: "js-editpage-title"}
+save_overlay: {class: "saving-overlay"}
+

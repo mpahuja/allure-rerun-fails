@@ -1,0 +1,6 @@
+app_drawer_container: {id: "wsb-toolbox-appdrawer"}
+locu_icon: {class: "appdrawer-locu-icon"}
+paypal_icon: {class: "appdrawer-paypal-icon"}
+yelp_icon: {class: "appdrawer-yelp-icon"}
+homefinder_icon: {class: "appdrawer-homefinder-icon"}
+app_add_button: {css: ".app-drawer-btn>a"}

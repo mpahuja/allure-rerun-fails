@@ -1,0 +1,7 @@
+text_area: {css: "#siteCssAceEditor > textarea.ace_text-input"}
+theme_text_area: {css: "#themeCssAceEditor > textarea.ace_text-input"}
+css_editor_content: {class: "ace_content"}
+css_editor_insert_button: {id: "cssEditorUpload"}
+css_editor_insert_flyout: {class: "wsb-cssEditor-ctrl-flyout"}
+css_editor_pin_icon: {class: "wsb-toolbox-pin-icn"}
+css_editor_controls: {id: "cssEditorControls"}

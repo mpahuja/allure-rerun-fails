@@ -1,0 +1,30 @@
+get_started_button: { class: "wsb-seo-get-started" }
+seo_pop_up: {class: "wsb-seo-kickstart-modal-image"}
+business_category: {id: "wsb-site-settings-industry"}
+business_category_item: {class: "wsb-autocomplete-item-text"}
+offering_inputs: {id: "OfferingsInput"}
+customer_local_input: {id: "seo-targetArea"}
+add_target_area: {id: "addTargetArea"}
+local_list: {id: "ui-id-1"}
+seo_loading: {class: "wsb-seo-loading-options"}
+
+
+#seo navigation
+next_button: {id: "btn-seo-biz-next"}
+phrase_next_button: {id: "btn-seo-sb-next"}
+
+#reset seo
+website_id_input_parent: {id: "seoResetTool"}
+reset_button: {class: "sf-btn-primary"}
+
+#Phrases
+seo_keyword_container: {class: "wsb-seo-options-container"}
+seo_keywords: {id: "seoKeywordOptions"}
+seo_keyword_choose: {class: "wsb-seo-option-choose-container"}
+needed_phrase: {class: "wsb-seo-focus-notin-description"}
+enter_description: {class: "wsb-seo-description-entry-container"}
+insert_headline_overlay: {id: "seo-h1-overlay-pointer"}
+finish_publish: {class: "wsb-seo-finish-publish"}
+exit_button: {class: "header-preview-button"}
+wait_text: {xpath: '//span[contains(., "Please Wait...")]'}
+location_flyout: {class: "wsb-seo-wizard-flyout-items"}

@@ -1,0 +1,9 @@
+#UI Locators for Survey Dialog
+
+survey: {id: "js-netpromoter-flyout"}
+survey_rating: {class: "rating"}
+survey_submit: {xpath: ".//*[contains(@data-aid,'survey-netpromoter-submit')]"}
+survey_cancel: {xpath: ".//*[contains(@data-aid,'survey-netpromoter-cancel')]"}
+survey_iframe: {xpath: ".//*[contains(@data-aid, 'wsb-shell-survey-iframe')]"}
+survey_open_zuberance: {xpath: ".//*[contains(@data-aid, 'link-open-zuberance')]"}
+survey_back_to_wsb: {xpath: ".//*[contains(@data-aid, 'link-back-to-wsb')]"}

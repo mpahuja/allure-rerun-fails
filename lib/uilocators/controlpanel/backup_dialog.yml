@@ -1,0 +1,19 @@
+cp_manage_backups_link: { xpath: ".//*[contains(@data-aid, 'cp_backups')]" }
+backups_dialog_container: {id: "backupsContainer" }
+
+create_backup_button: { xpath: ".//*[contains(@data-aid, 'manageBackups_add')]" }
+backup_list: { class: "backups-manager-list" }
+
+manual_backup_row: { class: "backups-manager-user" }
+delete_backup_icon: { class: "backups-manager-delete" }
+edit_backup_icon: { class: "backups-manager-edit" }
+
+confirm_delete_backup_veil: { id: "sflayer-dialog-dialog" }
+confirm_delete_backup_button: { xpath: ".//*[contains(@data-button, 'ok')]" }
+
+backup_name_textbox: { class: "backup-edit" }
+rename_ok_button: { xpath: ".//*[contains(@data-aid, 'manageBackups_ok')]" }
+
+manual_backup_name_div: { xpath: ".//*[contains(@data-aid, 'manageBackups_userBackupName')]" }
+
+auto_backup_row: { class: "backups-manager-auto" }

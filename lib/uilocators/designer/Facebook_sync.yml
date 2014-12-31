@@ -1,0 +1,9 @@
+facebook_email_txt: {id: "email"}
+facebook_password_txt: {id: "pass"}
+facebook_login: {xpath: ".//*[contains(@name,'login') and contains(@type,'submit')]"}
+facebook_proceed: {xpath: ".//*[contains(@name,'__CONFIRM__')]"}
+facebook_permissions_window_1: {xpath: ".//*[contains(@aria-label,'Name')]"}
+#//div[contains(.,'Hello Justin')]
+facebook_friends_list: {class: "uiButtonText"}
+facebook_login_form: {id: "#loginform"}
+facebook_manage_pages_partial_text: {xpath: "//div[contains(.,'would like to manage your Pages.')]"}

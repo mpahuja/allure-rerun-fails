@@ -1,0 +1,8 @@
+create_backup_button: { css: '[data-aid="sitesettings_backups_add"]' }
+backup_created_success_message: { css: '.wsb-actionbar-backups-success' }
+backups_list: { css: '.wsb-settings-backups-list' }
+manual_backup_row: { class: "wsb-settings-backups-user" }
+delete_backup_button: { css: '[data-aid="sitesettings_backups_userDelete"]' }
+confirm_delete_message: { css: '.backup-delete-msg' }
+restore_backup_button: { css: '[data-aid="sitesettings_backups_userRestore"]' }
+confirm_restore_message: { css: '.backup-delete-msg' }

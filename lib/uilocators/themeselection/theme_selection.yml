@@ -1,0 +1,12 @@
+themes: {class: "theme"}
+select_theme_button: {class: "btn-success"}
+find_theme_name: {css: "div:contains('12333333333333333333333444444444444444444444444444467555555555555')"}
+theme_page_div: {id: "wsb-templates"}
+current_theme_name: {css: '.current-theme .name'}
+all_themes: {css: '.themes .theme'}
+theme_name: {css: '.name'}
+change_theme_confirmation: {css: '#wsb-templates-confirm'}
+preview_theme_full_screen: {class: 'fullscreen'}
+select_theme_on_preview: {class: 'icon-ok'}
+theme_list: {class: "themes"}
+preview_theme: {class: 'preview'}

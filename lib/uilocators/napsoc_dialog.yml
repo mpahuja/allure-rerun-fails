@@ -1,0 +1,20 @@
+setup_dialog: {class: "setup-btn-wrap"}
+
+button_next: {class: "btn-success"}
+button_next_on_setup: {xpath: ".//button[@class='btn btn-success']"}
+input_business_name: {id: "txtSiteSettingsPersonalInfoSiteName"}
+input_email: {id: "txtSiteSettingsPersonalInfoEmail"}
+input_business_category: {id: "wsb-site-settings-industry"}
+input_address: {id: "wsb-napsoc-address-input"}
+input_phone: {id : "wsb-napsoc-phone-input"}
+button_back_to_themes: {id: "js-napsoc-back"}
+
+business_category_list: {class: "wsb-autocomplete-item-text"}
+
+check_show_on_mobile: {xpath: ".//*[contains(@data-id,'sitesettings-personalinfo-phoneispublic')]"}
+button_connect_facebook: {xpath: ".//*[contains(@data-id,'sitesettings-personalinfo-facebook')]"}
+button_connect_twitter: {xpath: ".//*[contains(@data-id,'sitesettings-personalinfo-twitter')]"}
+
+
+#first time visitor video
+embedded_video: {id: "player1"}

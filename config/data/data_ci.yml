@@ -1,0 +1,100 @@
+defaults: &defaults
+  common:
+    driver_type: remote
+    log_level: debug
+    role: User
+    use_parallel: true
+    locale: en-US
+    businessname: WSB Automation
+    phone: 408-963-6355
+    browser_version: chrome
+    remote_machine_ip: 172.17.172.190
+    email_address: wsb.automation.testing@gmail.com
+    email_password: soupRs3(ret
+    twitter_username: Godaddy172
+    twitter_password: Godaddy123
+    instagram_username: sbsqa
+    instagram_password: Password1
+    facebook_email: Sbs-qa@godaddy.com
+    facebook_password: Gdiddy2010
+    jomax_username: 02d764xnrr9xA
+    jomax_password: c4oji1M5M(*i#0
+    logstash_endpoint_URL: http://wsbmonitor.int.godaddy.com/api/externalLog/insert
+    mya_password: Geodefound1
+    designer_version: new
+
+# Data file for different environments
+local:
+  <<: *defaults
+  envdata:
+    build: DEFAULT
+    app_url: http://admin.local.websitetonight.com
+    shopper_id: 908662
+    domain_name: personal-jared.com
+    user_domain_name: hola.org
+    personal_domain: 3086.yolo.net
+    dps_endpoint_URL: https://dps.p01.api.dev-godaddy.com/site
+    bearer_app_key: Bearer app.9243fec2-1d14-4d14-bb87-a101d9a232ad
+    bearer_site_key: Bearer site.648d19dc-2a5a-48a5-a4f9-f56583b20e4e
+    site_id: 32e55993c4c9
+    in_app_endpoint: https://wsb.api.test-godaddy.com/v1/bonsai/
+    orion_id: 94b01a7c-2559-11e3-853b-0050569575d8
+    wsb_app_url: https://app7.local.websitetonight.com/
+    website_id: 583674
+    express_checkout_orionid: 6e6f43c3-32fc-11e4-8020-005056953ce3
+    express_checkout_domain: thisisscience.com
+    express_checkout_shopper_id : 287306
+    express_checkout_shopper_password : Geodefound1
+    sso_endpoint: https://sso.dev.int.godaddy.com/api/token
+
+dev:
+  <<: *defaults
+  envdata:
+    build: DEFAULT
+    app_url: https://websitebuilder.dev-godaddy.com/admin
+    shopper_id: 912057
+    domain_name: manojdev.com
+    new_account_domain_name: tobedefinedfordev.com
+    user_domain_name: hola.org
+    personal_domain: 3086.yolo.net
+    buissness_plus: 4944.nojokes.com
+    dps_endpoint_URL: https://dps.p01.api.dev-godaddy.com/site
+    bearer_app_key: Bearer app.9243fec2-1d14-4d14-bb87-a101d9a232ad
+    bearer_site_key: Bearer site.648d19dc-2a5a-48a5-a4f9-f56583b20e4e
+    site_id: 32e55993c4c9
+    in_app_endpoint: https://wsb.api.godaddy.com:443/v1/
+    orion_id: 9dd1fa8a-bdaa-11e2-84af-005056953ce3
+    wsb_app_url: https://websitebuilder.dev-godaddy.com
+    website_id: 583674
+    express_checkout_orionid: 6e6f43c3-32fc-11e4-8020-005056953ce3
+    express_checkout_domain: thisisscience.com
+    express_checkout_shopper_id : 287306
+    express_checkout_shopper_password : Geodefound1
+    sso_endpoint: https://sso.dev.int.godaddy.com/api/token
+
+test:
+  <<: *defaults
+  envdata:
+    build: DEFAULT
+    app_url: https://websitebuilder.test-godaddy.com/admin
+    mya_url: http://mya.test-godaddy.com
+    shopper_id: 256518
+    new_account_domain_name: wsb-auto-personal.com
+    user_domain_name: hola.org
+    domain_name: newdesigner.com
+    personal_domain: mbusiness.biz
+    buissness: yahooman.com
+    dps_endpoint_URL: https://dps.p01.api.test-godaddy.com
+    bearer_app_key: Bearer app.c966270b-667a-401a-8da8-b96cce740b44
+    bearer_site_key: Bearer site.3f80b075-26c8-40fd-bae7-d00d62f93fa9
+    in_app_endpoint: https://wsb.api.test-godaddy.com/v1/
+    orion_id: 801bf4a0-a959-11e3-912a-005056953ce3
+    personal_orion_id: 573207fe-fbd7-11e3-90ea-005056953ce3
+    site_id: a4b285bbff8a
+    wsb_app_url: https://websitebuilder.test-godaddy.com
+    website_id: 604491
+    express_checkout_orionid: 6e6f43c3-32fc-11e4-8020-005056953ce3
+    express_checkout_domain: thisisscience.com
+    express_checkout_shopper_id : 287306
+    express_checkout_shopper_password : Geodefound1
+    sso_endpoint: https://sso.test.int.godaddy.com/api/token

@@ -1,0 +1,5 @@
+blog_on_canvas: {xpath: ".//*[contains(@data-aid,'el-blog')]"}
+blog_on_toolbox: {class: "wsb-tool-blog"}
+blog_list_updated_entries: {xpath: ".//div[contains(@class, 'wsb-blog-post-header')]/a"}
+blog_settings_input_feed_url: {id: txtBlogUrl}
+blog_settings_checkbox_show_images: {css: ".wsb-canvas-mutator-checkboxlist .wsb-canvas-mutator-ctrl-input input[type='checkbox'][value='0']"}

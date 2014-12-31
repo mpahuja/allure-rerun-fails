@@ -1,0 +1,6 @@
+facebook_on_canvas: {xpath: ".//*[contains(@data-aid,'el-facebook')]"}
+facebook_on_toolbox: {class: "wsb-tool-facebook"}
+facebook_on_preview_publish: {class: "wsb-element-facebook"}
+facebook_on_mobile_preview: {xpath: ".//*[contains(@id,'fbe')]"}
+facebook_url: {css: ".wsb-canvas-mutator-ctrl-outer .wsb-text-box"}
+facebook_url_clear_selection: {class: "wsb-picker-clear-selection"}

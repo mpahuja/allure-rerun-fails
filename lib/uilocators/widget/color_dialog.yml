@@ -1,0 +1,4 @@
+color_dialog: {class: "sf-colorpicker-main"}
+color_grid: {class: "Grid"}
+color_swatch: {tag_name: "span"}
+color_hex: {class: "Hex"}

@@ -1,0 +1,8 @@
+locu_nav: {css: " .locu-web-menu .locu-nav"}
+locu_on_designer: {css: ".locu-outer.locu-wsb"}
+locu_loading: {class: "wsb-locu-overlay-section-loading"}
+locu_popover: {class: "wsb-locu-overlay-section-popover"}
+locu_username: {id: "login_id_for_username"}
+locu_password: {id: "login_id_for_password"}
+locu_submit: {class: "sign-in"}
+locu_iframe: {xpath: ".//*[contains(@data-aid,'ifm-overlay')]"}

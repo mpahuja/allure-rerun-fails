@@ -1,0 +1,4 @@
+theme_template_container: {id: "wsb-template-container"}
+theme_template: {class: "template"}
+theme_template_gear_icon: {xpath: ".//*[contains(@data-aid,'template-actions-icon')]"}
+theme_template_actions_design: {xpath: ".//*[contains(@data-aid,'designer-link')]"}

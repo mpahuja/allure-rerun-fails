@@ -1,0 +1,4 @@
+input_shopper_id: {id: "shopperId"}
+list_launch_locale: {id: "launchLocale"}
+button_launch_account: {id: "launchButton"}
+list_builds: {id: "launchVersion"}

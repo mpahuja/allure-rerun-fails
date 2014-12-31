@@ -1,0 +1,11 @@
+paypal_on_canvas: {css: ".paypal-button-container"}
+paypal_item_name: {css: ".wsb-paypal-item-name>input"}
+paypal_price: {css: ".wsb-paypal-buy-price>input"}
+paypal_item: {css: ".wsb-paypal-item-id>input"}
+#xpath data-button="next"
+next_button: {xpath: ".//*[contains(@data-button,'next')]"}
+finish_button: {xpath: ".//*[contains(@data-button,'finish')]"}
+paypal_wizard: {class: "paypal-wizard-inner"}
+paypal_receive_text: {class: "wsb-paypal-recieve-text"}
+clear_paypal_email: {class: "wsb-picker-clear-selection"}
+paypal_email: {css: ".wsb-picker-container>input"}

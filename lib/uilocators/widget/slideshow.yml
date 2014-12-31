@@ -1,0 +1,3 @@
+slideshow: {xpath: ".//*[contains(@data-aid,'el-gallery')]"}
+slideshow_on_toolbox: {class: "wsb-tool-gallery"}
+slideshow_style_locator: {class: "customStyle"}

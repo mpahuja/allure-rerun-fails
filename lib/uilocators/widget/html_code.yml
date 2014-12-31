@@ -1,0 +1,5 @@
+#find htmlcode
+html_code: {xpath: ".//*[contains(@data-aid,'el-htmlsnippet')]"}
+html_code_on_toolbox: {class: "wsb-tool-htmlsnippet"}
+html_code_label_text: {class: "ace_text-input"}
+html_code_iframe_html_locator: {id: '__htmlsnippet'}

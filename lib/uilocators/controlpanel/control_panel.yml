@@ -1,0 +1,7 @@
+cp_edit_site_button: { xpath: ".//*[contains(@data-aid, 'cp_editSite')]" }
+cp_settings_button: { xpath: ".//*[contains(@data-aid, 'cpHeader_settings')]" }
+cp_settings_start_over_option: { xpath: ".//*[contains(@data-aid, 'cpHeader_startOver')]" }
+cp_settings_sub_menu: { class: "ctrl-pnl-submenu" }
+cp_published_text: {id: "lastPublishedText"}
+cp_template_name: {class: "wsb-template-name"}
+themes_tab: { xpath: ".//*[contains(@data-aid, 'cpHeader_Themes')]" }

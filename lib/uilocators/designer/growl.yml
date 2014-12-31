@@ -1,0 +1,3 @@
+twitter_sucess_growl: {class: "sf_growl_msg"}
+twitter_message: {class: "sf_growl_content"}
+growl_success_icon: { css: '.sf_growl_ico_success' }

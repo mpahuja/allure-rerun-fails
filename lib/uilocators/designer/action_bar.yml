@@ -1,0 +1,33 @@
+#UI Locators for Designer Action Bar
+
+save: {xpath: ".//*[contains(@data-aid,'ab-savedesigner')]"}
+undo: {xpath: ".//*[contains(@data-aid,'ab-undo')]"}
+redo: {xpath: ".//*[contains(@data-aid,'ab-redo')]"}
+all_changes_saved_text: {class: "wsb-changes-text"}
+publish: {class: "wsb-action-publish"}
+
+preview: {class: "wsb-action-preview"}
+# new locator after the refactor
+#preview: {xpath: ".//*[contains(@data-aid,'actionbar-previewbutton')]"}
+
+social: {id: "actionBarSocialPreview"}
+
+# new locator after the refactor
+#exit_preview: {xpath: ".//*[contains(@data-aid,'actionbar-previewbutton')]"}
+exit_preview: {xpath: ".//*[contains(@data-aid,'ab-exitpreview')]"}
+preview_mobile: {xpath: ".//*[contains(@data-aid,'ab-previewmobile')]"}
+
+#Settings menu
+settings_button: {class: "wsb-actionbar-actions-flyout-openbutton"}
+seo_wizard_option: {css: "ul.wsb-actionbar-designer-actions li.wsb-action-seo a"}
+exit_option: {css: '[data-aid="exitflyout-exitbutton"] a'}
+settings_options_flyout: {class: "wsb-actionbar-designer-actions"}
+
+#future hamburger control
+hamburger: {xpath: ".//*[contains(@data-aid,'exitflyout-openclosebutton')]"}
+hamburger_container: {class: "wsb-actionbar-actions-flyout-list-container"}
+lock_all_layers: {xpath: ".//*[@class='wsb-action-lock']/a"}
+unlock_all_layers: {xpath: ".//*[@class='wsb-action-unlock']/a"}
+background: {class: "wsb-action-background"}
+site_settings: {class: "wsb-action-settings"}
+

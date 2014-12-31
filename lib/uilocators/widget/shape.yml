@@ -1,0 +1,5 @@
+shape: {xpath: ".//*[contains(@data-aid,'el-shape')]"}
+shape_on_toolbox: {class: "wsb-tool-shape"}
+shape_style_locator: {class: "wsb-shape"}
+shape_effect_circle: {class: "shape_circle"}
+shape_style_locator_theme_manager: {class: "shape"}

@@ -1,0 +1,30 @@
+custom_form_on_toolbox: {class: 'wsb-tool-customform'}
+custom_form: {class: 'wsb-group-overlay'}
+add_element: {class: 'wsb-tool-Add-Element'}
+
+email_clear_btn: { css: '.wsb-url-property .wsb-picker-clear-selection' }
+email_input: { css: '.wsb-url-property input' }
+
+published_custom_form: {css: '.customform'}
+published_custom_form_inputs: { css: '.wsb-element-customform input[type="text"], .wsb-element-customform textarea' }
+published_custom_form_submit: { css: '.form-submit' }
+
+add_element_flyout: { id: 'customform_leftFlyOut' }
+id_to_be_updated: { id: '12345' }
+delete_field_icon: { class: 'cf-controls-delete-icn' }
+form_field_label: {class: "form-label"}
+customform_overlay: { class: 'customform_overlay' }
+form_type: { class: 'wsb-select-box' }
+form_setting_row: {class: 'wsb-repeat-property'}
+form_finished_property: {class: 'wsb-form-finished-property'}
+radio_send_to_web_page: {xpath: ".//*[contains(@value,'1')]" }
+set_destination_page: {css: ".wsb-picker-container input"}
+
+old_form_on_toolbox: {class: 'wsb-tool-form'}
+old_form_on_canvas: {class: 'form'}
+old_form_add_element: {class: 'wsb-tool-Add-Element'}
+old_form_upgrade_dialog: {class: 'wsb-form-hint'}
+
+form_elements: {class: 'el-shufflecontainer-list'}
+
+old_form_element: {xpath: ".//*[contains(@data-aid,'el-form')]"}

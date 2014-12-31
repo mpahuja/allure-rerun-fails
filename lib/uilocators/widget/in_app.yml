@@ -1,0 +1,14 @@
+#in_app_items
+in_app_widget_feature: {css: "#InAppPurchaseContentContainer ul.sf-tabs-menu li:nth-child(1) a"}
+in_app_header_title: {css: "#InAppPurchaseContentContainer .sf-dialog-title2"}
+in_app_compare: {css: "#InAppPurchaseContentContainer ul.sf-tabs-menu li:nth-child(2) a"} #or use #InAppPurchaseContentContainer .sf-tabs>li:nth-child(2) >a
+in_app_upgrade_plan_header: {class: "inAppUpgradeHeader"}
+in_app_upgrade_compare_plans_h2: {css: "#InAppUpgradeCurrentPlan>h2"}
+in_app_pricing_present: {css: "#inAppPricePaymentDetails>span"}
+in_app_list_container: {class: "in-app-purchase-plan-feature-list-container"}
+in_app_list: {class: "in-app-purchase-plan-feature-item"}
+in_app_modal: {id: "InAppPurchaseDuelHack"}
+in_app_price_loading_spinner: {class: "in-app-purchase-price-loading-container-two"}
+in_app_payment_details: {class: "in-app-purchase-price-table-data-key"}
+in_app_mobile_site_settings: { xpath: ".//*[contains(@data-aid, 'mobile-learn-more')]" }
+in_app_favicon_site_settings: { xpath: ".//*[contains(@data-aid, 'favicon-learn-more')]" }
