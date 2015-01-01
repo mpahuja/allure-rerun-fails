@@ -1,5 +1,0 @@
-desired_domain_account: { id: "domain"}
-shopper_id: { id: "username"}
-shopper_password: { id: "password"}
-login_button: {id: "login"}
-

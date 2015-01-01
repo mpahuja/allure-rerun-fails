@@ -12,7 +12,7 @@ describe 'Smoke Test' do
     expect(10).to be > 19
   end
 
-  it "4 must not be equal to 5" do |example|
+  it "4 must not be equal to 5" do
     expect(5).to be eql(4)
   end
 end

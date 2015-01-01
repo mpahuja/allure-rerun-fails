@@ -1,7 +1,0 @@
-line_on_canvas: {xpath: ".//*[contains(@data-aid,'el-line')]"}
-line_on_toolbox: {class: "wsb-tool-line"}
-
-line_color_picker_swatch: {class: "sf-colorpicker-swatch"}
-
-line_style_locator: {class: "wsb-line-element"}
-line_border_width_input: {class: "mutator-border-width"}

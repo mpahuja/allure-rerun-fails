@@ -1,3 +1,0 @@
-published_content: {id:  publishContent}
-domain_link: {xpath: ".//div[@class='wsb-region-grey']/div/a"}
-close_publish_dialog: {class: wsb-x}

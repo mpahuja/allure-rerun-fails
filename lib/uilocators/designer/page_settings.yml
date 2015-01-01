@@ -1,8 +1,0 @@
-canvas: {class: "wsb-canvas"}
-page_setting: {class: "wsb-canvas-mutator-inner"}
-page_setting_width: {xpath: ".//*[contains(@data-aid,'pageSettings-Width')]"}
-page_setting_height: {xpath: ".//*[contains(@data-aid,'pageSettings-Height')]"}
-canvas_template_page: {class: "wsb-canvas-page"}
-width_slider: {class: "ui-slider-handle"}
-box_background: {class: "wsb-canvas-page"}
-page_setting_color_picker: {class: "sf-colorpicker-swatch"}

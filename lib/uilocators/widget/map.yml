@@ -1,5 +1,0 @@
-map_on_canvas: {xpath: ".//*[contains(@data-aid,'el-map')]"}
-map_on_toolbox: {class: "wsb-tool-map"}
-larger_map_link: {css: ".map a" }
-large_map_link_checkbox: {css: ".wsb-canvas-mutator-checkbox input[type='checkbox']"}
-map_google_maps_iframe: {css: "iframe[src*='//maps.google.com/maps']"}

@@ -1,6 +1,0 @@
-gallery: {xpath: ".//*[contains(@data-aid,'el-carousel')]"}
-gallery_on_toolbox: {class: "wsb-tool-carousel"}
-gallery_style_locator: {class: "wsb-media-carousel"}
-gallery_wrapper_locator: {class: "wsb-media-carousel-wrapper"}
-
-

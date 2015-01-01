@@ -1,3 +1,0 @@
-youtube_on_canvas: {xpath: ".//*[contains(@data-aid,'el-youtube')]"}
-youtube_on_toolbox: {class: "wsb-tool-youtube"}
-youtube_url_input: {id: "url"}

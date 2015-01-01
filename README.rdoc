@@ -1,4 +1,18 @@
-== Use the following steps to setup for WSB Ruby Automation
+== This repo is a sample to reproduce the allure-rspec bug where we get an from allure-adaptor-api
 
-https://confluence.int.godaddy.com/pages/viewpage.action?pageId=20743709
+Steps to reproduce
+
+From command line (Note you need to have your SSH key stored in your profile on your computer)
+git clone git@github.com:mpahuja/allure-rerun-fails.git
+
+bundle install
+
+Make sure you have chrome driver installed on your computer or update the data_ci.yml file to run your tests against a
+different browser like firefox. To do so update
+
+browser_version = firefox
+
+Finally run all the tests using the following command
+
+rake run_tests[spec/integration/*]
 
